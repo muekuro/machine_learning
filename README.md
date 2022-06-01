@@ -37,4 +37,15 @@
     ```
     conda install -c apple tensorflow-deps
     ```
+
+5. その他 おすすめライブラリ<br>
+    Pythonライブラリをインストールするには、```conda install [Library] -y```を入力するだけです。
+    ``` bash
+    conda install jupyter -y
+    conda install matplotlib -y
+    conda install scikit-learn -y
+    conda install opencv -y
+    conda install pandas -y
+    ```
+
 [参考サイト](https://tech-diary.net/how-to-install-tensorflow-on-m1-mac/#index_id4)
