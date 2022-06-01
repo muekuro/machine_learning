@@ -1,5 +1,3 @@
-# file __future__ import absolute_import, division, print_function, unicode_literals
-
 from unittest import result
 import numpy as np
 import pandas as pd
@@ -60,3 +58,4 @@ result = linear_est.evaluate(eval_input_fn)
 
 clear_output()
 print(result['accuracy'])
+# %%
