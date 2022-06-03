@@ -2,7 +2,9 @@
 機械学習の勉強
 
 ## TensorFlowについて
-筆者はM1 Macのため、仮想環境を構築し、実装をおこなっている。
+筆者はM1 Macのため、仮想環境を構築し、実装を行なっている。
+追記、.ipynbでの開発に切り替えたため、jupyterを使用している。
+
 ### 導入方法
 1. コマンドラインツールをインストール<br>
     ``` bash
@@ -38,7 +40,14 @@
     conda install -c apple tensorflow-deps
     ```
 
-5. その他 おすすめライブラリ<br>
+5. jupterについて<br>
+    web上で行えるipynb開発
+    ```
+    conda install jupyter -y
+    jupyter notebook # 起動
+    ```
+
+6. その他 おすすめライブラリ<br>
     Pythonライブラリをインストールするには、```conda install [Library] -y```を入力するだけです。
     ``` bash
     conda install jupyter -y
