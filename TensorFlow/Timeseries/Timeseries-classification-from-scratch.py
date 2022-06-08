@@ -52,7 +52,6 @@ def make_model(input_shape):
     return keras.models.Model(inputs=input_layer, outputs=output_layer)
 
 model = make_model(input_shape=x_train.shape[1:])
-keras.utils.plot_model(model, show_shapes=True)
 
 # モデルをトレーニング
 epochs = 500
