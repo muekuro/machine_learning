@@ -13,7 +13,7 @@
     インストールが完了したら```xcode-select -v```でバージョンを確認し、表示されたら完了。
 
 2. Miniforgeをインストール<br>
-    もし、Rosetta経由でIntel版のAnacondaをインストールしているなら、アンインストールしてください。<br>[公式ドキュメント](https://github.com/conda-forge/miniforge)に行き、ダウンロードする。
+    もし、Rosetta経由でIntel版のAnacondaをインストールしているなら、アンインストールしてください。<br>[公式ドキュメント](https://github.com/conda-forge/miniforge)に行き、該当しているものをダウンロードし、以下のコードを実行する。
     ``` bash
     # ダウンロードしたシェルスクリプトを実行
     bash Miniforge3-MacOSX-arm64 sh
